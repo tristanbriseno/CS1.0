@@ -1,9 +1,6 @@
-height = float(input("Input your height in meters: "))
-#Here the code is asking for your height in meters, the value of the height will cange,
-#based on the imput provided
-weight = float(input("Input your weight in kilogram: "))
-#The same is happening here with the weight as is with the height, 
-#the value will be assigned based off of the umput
-print("Your body mass index is: ", round(weight / (height * height), 2))
-#Here is where the code processes the information and runs the formula of 
-#Weight/height^2, and then prints the results
+temperature = float(input("Please enter temperature in fahrenheit:"))
+#this is where the code asks the user for iput
+#it then uses the input as a float and substitutes "temperature" in the formula down below with the number provided.
+celsius = (temperature - 32) * 5 / 9
+print("The temperature in celsius is: " , celsius)
+#the code will then print the result of the conversion process and return the answer to you
